@@ -16,6 +16,7 @@ class Album
     public $id;
     public $artist;
     public $title;
+    public $inputFilter;
 
     public function exchangeArray(array $data)
     {
